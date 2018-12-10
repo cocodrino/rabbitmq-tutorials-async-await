@@ -4,7 +4,7 @@ Every chapter is stored as a branch...
 
 | chapter             | branch      |
 | ------------------- | ----------- |
-| master              | Hello World |
+| Hello World         | master      |
 | Work Queues         | queues-cap2 |
 | Publish/Subscribe   | pubsub      |
 | Routing (not ready) | routing     |
