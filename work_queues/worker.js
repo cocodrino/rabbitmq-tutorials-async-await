@@ -8,6 +8,7 @@ let amqp = require("amqplib");
     );
 
     let q = 'task_queue';
+    // check work_queues_with_prefetch
 
     let ch = await con.createChannel();
     ch.assertQueue(q, {durable: true});
