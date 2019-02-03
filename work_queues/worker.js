@@ -23,7 +23,7 @@ let amqp = require("amqplib");
           console.log('[x] Done');
         },secs*1000);
 
-      }, {noAck: true}
+      }, {noAck: true} // check branch work_queues_message_acknowledgment
     );
 
   } catch (error) {
