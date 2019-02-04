@@ -4,7 +4,7 @@ let amqp = require("amqplib");
   try {
     console.log("[*] Connecting");
     let conn = await amqp.connect(
-      'amqp://tvobttnq:Ri6S8XroB9gRiIvSesqQMa2KcWI_IOkB@otter.rmq.cloudamqp.com/tvobttnq'
+      'amqp://localhost'
     );
 
     let ch = await conn.createChannel();
